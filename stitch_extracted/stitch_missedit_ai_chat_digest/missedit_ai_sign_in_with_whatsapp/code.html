@@ -1,0 +1,334 @@
+<!DOCTYPE html><html class="dark" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_blank" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "on-surface-variant": "#bbcabf", "on-secondary-fixed": "#23005c", "primary": "#4edea3", "outline-variant": "#3c4a42", "surface-container": "#1a2028", "background": "#0e141c", "primary-fixed": "#6ffbbe", "secondary-fixed": "#e9ddff", "tertiary": "#ffb2b7", "secondary-container": "#571bc1", "surface": "#0e141c", "surface-dim": "#0e141c", "outline": "#86948a", "on-tertiary": "#67001b", "on-background": "#dde3ee", "secondary-fixed-dim": "#d0bcff", "on-primary-fixed": "#002113", "tertiary-container": "#ff7886", "primary-container": "#10b981", "inverse-on-surface": "#2b3139", "surface-container-low": "#161c24", "primary-fixed-dim": "#4edea3", "error": "#ffb4ab", "surface-container-high": "#242a33", "on-secondary-fixed-variant": "#5516be", "surface-variant": "#2f353e", "tertiary-fixed": "#ffdadb", "on-tertiary-container": "#780021", "on-error": "#690005", "surface-bright": "#343a42", "error-container": "#93000a", "surface-tint": "#4edea3", "on-surface": "#dde3ee", "inverse-primary": "#006c49", "on-tertiary-fixed": "#40000d", "on-primary-fixed-variant": "#005236", "on-primary-container": "#00422b", "tertiary-fixed-dim": "#ffb2b7", "surface-container-highest": "#2f353e", "on-error-container": "#ffdad6", "secondary": "#d0bcff", "on-secondary": "#3c0091", "inverse-surface": "#dde3ee", "surface-container-lowest": "#090f16", "on-tertiary-fixed-variant": "#92002a", "on-secondary-container": "#c4abff", "on-primary": "#003824" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-sm": "0.5rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "margin": "2rem", "gutter": "1.5rem", "gutter-mobile": "1rem", "space-md": "1rem", "space-lg": "1.5rem", "margin-mobile": "1rem" }, fontFamily: { "headline-md": ["Plus Jakarta Sans"], "code-sm": ["Inter"], "label-sm": ["Inter"], "display-hero-mobile": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-sm": ["Inter"], "headline-sm": ["Plus Jakarta Sans"], "body-lg": ["Inter"], "label-md": ["Inter"], "body-md": ["Inter"], "headline-lg-mobile": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"] }, fontSize: { "headline-md": ["20px", { lineHeight: "28px", letterSpacing: "-0.015em", fontWeight: "600" }], "code-sm": ["12px", { lineHeight: "16px", letterSpacing: "0.02em", fontWeight: "500" }], "label-sm": ["11px", { lineHeight: "16px", letterSpacing: "0.04em", fontWeight: "600" }], "display-hero-mobile": ["32px", { lineHeight: "40px", letterSpacing: "-0.025em", fontWeight: "700" }], "headline-lg": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "600" }], "body-sm": ["12px", { lineHeight: "18px", letterSpacing: "0em", fontWeight: "400" }], "headline-sm": ["16px", { lineHeight: "24px", letterSpacing: "-0.01em", fontWeight: "600" }], "body-lg": ["16px", { lineHeight: "26px", letterSpacing: "-0.005em", fontWeight: "400" }], "label-md": ["13px", { lineHeight: "18px", letterSpacing: "0.01em", fontWeight: "500" }], "body-md": ["14px", { lineHeight: "22px", letterSpacing: "0em", fontWeight: "400" }], "headline-lg-mobile": ["24px", { lineHeight: "32px", letterSpacing: "-0.015em", fontWeight: "600" }], "display-hero": ["48px", { lineHeight: "56px", letterSpacing: "-0.03em", fontWeight: "700" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior-y:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head><body class="bg-surface text-on-surface font-body-md text-body-md antialiased min-h-screen"><main class="flex flex-col relative w-full pt-safe pb-safe bg-surface min-h-screen"><div class="flex flex-col w-full text-on-surface">
+<!-- Atmospheric Ambient Background Light -->
+<div class="relative w-full overflow-hidden px-margin-mobile py-space-lg flex flex-col items-center">
+<!-- Radiant Mint Aura -->
+<div class="absolute -top-16 left-1/2 -translate-x-1/2 w-72 h-72 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+<!-- Header & Brand Identity -->
+<div class="relative z-10 flex flex-col items-center text-center w-full max-w-sm">
+<!-- MissedIt AI Shield Logo Emblem -->
+<div class="relative flex items-center justify-center w-14 h-14 rounded-xl bg-surface-container-high shadow-xl mb-space-md group">
+<div class="absolute inset-0 rounded-xl bg-primary/20 blur-md pointer-events-none"></div>
+<div class="relative flex items-center justify-center w-12 h-12 rounded-lg bg-surface-container text-primary">
+<span class="material-symbols-outlined text-[28px]" style="font-variation-settings: 'FILL' 1;">bolt</span>
+</div>
+<span class="absolute -top-1 -right-1 flex h-3.5 w-3.5 items-center justify-center rounded-full bg-primary text-on-primary text-[9px] font-bold ring-2 ring-surface">
+          ✓
+        </span>
+</div>
+<!-- Header Typography -->
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface mb-space-xs tracking-tight">
+        Connect via WhatsApp
+      </h1>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md max-w-xs leading-relaxed">
+        Instant verification using your registered WhatsApp phone number. Zero passwords to remember.
+      </p>
+<!-- Privacy Guarantee Pill -->
+<div class="inline-flex items-center gap-space-xs bg-surface-container-high px-space-md py-1.5 rounded-full shadow-sm mb-space-lg">
+<span class="material-symbols-outlined text-primary text-[15px]" style="font-variation-settings: 'FILL' 1;">shield_with_heart</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium tracking-wide">
+          End-to-End Encrypted Session • Local AI Storage
+        </span>
+</div>
+</div>
+<!-- Authentication Form Card -->
+<div class="relative z-10 w-full max-w-sm bg-surface-container-low rounded-xl p-space-md shadow-2xl flex flex-col gap-space-md">
+<!-- Stepper / State Indicator -->
+<div class="flex items-center justify-between px-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="h-2 w-8 rounded-full bg-primary transition-all duration-300" id="stepIndicator1"></span>
+<span class="h-2 w-2 rounded-full bg-surface-variant transition-all duration-300" id="stepIndicator2"></span>
+</div>
+<button class="font-label-sm text-label-sm text-primary hover:text-primary-fixed transition-colors flex items-center gap-1" id="toggleMethodBtn" type="button">
+<span class="material-symbols-outlined text-[14px]">qr_code_2</span>
+<span>Switch to QR Login</span>
+</button>
+</div>
+<!-- View 1: Phone Entry View -->
+<div class="flex flex-col gap-space-md transition-opacity duration-300" id="phoneStepView">
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium" for="phoneNumberInput">
+            WhatsApp Phone Number
+          </label>
+<div class="flex gap-space-xs items-center">
+<!-- Country Code Selector -->
+<div class="relative">
+<select class="appearance-none bg-surface-container text-on-surface font-label-md text-label-md rounded-lg py-3 pl-3 pr-7 focus:outline-none focus:bg-surface-container-high transition-colors cursor-pointer" id="countryCodeSelect">
+<option value="+1">🇺🇸 +1</option>
+<option value="+44">🇬🇧 +44</option>
+<option value="+91">🇮🇳 +91</option>
+<option value="+49">🇩🇪 +49</option>
+<option value="+81">🇯🇵 +81</option>
+<option value="+61">🇦🇺 +61</option>
+</select>
+<span class="material-symbols-outlined absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none text-on-surface-variant text-[16px]">
+                arrow_drop_down
+              </span>
+</div>
+<!-- Number Input Field -->
+<div class="relative flex-1">
+<input class="w-full bg-surface-container text-on-surface font-label-md text-label-md rounded-lg py-3 px-space-md placeholder:text-outline focus:outline-none focus:bg-surface-container-high transition-colors" id="phoneNumberInput" placeholder="(555) 234-5678" type="tel" value="(650) 492-8819">
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-primary text-[18px]">
+                chat
+              </span>
+</div>
+</div>
+</div>
+<!-- Trust Checkbox -->
+<label class="flex items-center gap-space-sm cursor-pointer select-none">
+<div class="relative flex items-center justify-center">
+<input checked="" class="peer sr-only" id="staySignedInCheckbox" type="checkbox">
+<div class="w-5 h-5 rounded bg-surface-container peer-checked:bg-primary transition-colors flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary text-[14px] opacity-0 peer-checked:opacity-100 font-bold transition-opacity">
+                check
+              </span>
+</div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+            Stay securely logged in on this browser
+          </span>
+</label>
+<!-- CTA Button -->
+<button class="w-full bg-primary hover:bg-primary-fixed text-on-primary font-headline-sm text-headline-sm py-3.5 px-space-md rounded-lg shadow-lg hover:shadow-primary/20 flex items-center justify-center gap-space-xs transition-all active:scale-[0.98]" id="sendOtpBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">send</span>
+<span>Send OTP via WhatsApp</span>
+</button>
+</div>
+<!-- View 2: OTP Verification Card (Interactive / Expandable) -->
+<div class="flex flex-col gap-space-md transition-opacity duration-300" id="otpStepView">
+<!-- Notification Banner inside OTP -->
+<div class="bg-surface-container p-space-sm rounded-lg flex items-center gap-space-sm">
+<div class="flex items-center justify-center w-8 h-8 rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+</div>
+<div class="flex flex-col min-w-0">
+<p class="font-label-sm text-label-sm text-on-surface truncate">
+              Code sent to <span id="displayPhoneTarget">+1 (650) 492-8819</span>
+</p>
+<p class="font-body-sm text-body-sm text-primary flex items-center gap-1">
+<span class="inline-block w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+              Auto-detecting WhatsApp OTP...
+            </p>
+</div>
+</div>
+<!-- 6 Digit Inputs -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface-variant font-medium text-center">
+            Enter 6-digit WhatsApp code
+          </label>
+<div class="flex justify-between gap-1.5 pt-1">
+<input class="otp-digit w-11 h-12 text-center bg-surface-container text-primary font-headline-md text-headline-md rounded-lg focus:outline-none focus:bg-surface-container-high transition-all" maxlength="1" type="text" value="7">
+<input class="otp-digit w-11 h-12 text-center bg-surface-container text-primary font-headline-md text-headline-md rounded-lg focus:outline-none focus:bg-surface-container-high transition-all" maxlength="1" type="text" value="3">
+<input class="otp-digit w-11 h-12 text-center bg-surface-container text-primary font-headline-md text-headline-md rounded-lg focus:outline-none focus:bg-surface-container-high transition-all" maxlength="1" type="text" value="9">
+<input class="otp-digit w-11 h-12 text-center bg-surface-container text-primary font-headline-md text-headline-md rounded-lg focus:outline-none focus:bg-surface-container-high transition-all" maxlength="1" type="text" value="4">
+<input class="otp-digit w-11 h-12 text-center bg-surface-container text-on-surface font-headline-md text-headline-md rounded-lg focus:outline-none focus:bg-surface-container-high transition-all" maxlength="1" placeholder="•" type="text">
+<input class="otp-digit w-11 h-12 text-center bg-surface-container text-on-surface font-headline-md text-headline-md rounded-lg focus:outline-none focus:bg-surface-container-high transition-all" maxlength="1" placeholder="•" type="text">
+</div>
+</div>
+<!-- Timer & Resend -->
+<div class="flex items-center justify-between font-code-sm text-code-sm px-space-xs">
+<span class="text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">hourglass_bottom</span>
+            Resend in <span class="text-primary font-medium" id="countdownTimer">0:38</span>
+</span>
+<button class="text-secondary hover:text-secondary-fixed transition-colors" id="editNumberBtn" type="button">
+            Edit number
+          </button>
+</div>
+<!-- Confirm Action -->
+<button class="w-full bg-primary hover:bg-primary-fixed text-on-primary font-headline-sm text-headline-sm py-3.5 px-space-md rounded-lg shadow-lg hover:shadow-primary/20 flex items-center justify-center gap-space-xs transition-all active:scale-[0.98]" id="verifyConfirmBtn" type="button">
+<span class="material-symbols-outlined text-[20px]">lock_open</span>
+<span>Verify &amp; Unlock Inbox</span>
+</button>
+</div>
+<!-- View 3: QR Code Quick Pairing (Hidden by default) -->
+<div class="hidden flex-col items-center gap-space-md text-center py-2" id="qrStepView">
+<div class="relative p-space-md bg-surface-container-highest rounded-xl shadow-inner flex flex-col items-center justify-center">
+<!-- Simplified inline SVG QR Code representation with glowing corners -->
+<svg class="w-44 h-44 text-primary" fill="currentColor" viewBox="0 0 160 160">
+<rect fill="currentColor" fill-opacity="0.15" height="44" rx="6" width="44" x="12" y="12"></rect>
+<rect fill="currentColor" height="28" rx="3" width="28" x="20" y="20"></rect>
+<rect fill="currentColor" fill-opacity="0.15" height="44" rx="6" width="44" x="104" y="12"></rect>
+<rect fill="currentColor" height="28" rx="3" width="28" x="112" y="20"></rect>
+<rect fill="currentColor" fill-opacity="0.15" height="44" rx="6" width="44" x="12" y="104"></rect>
+<rect fill="currentColor" height="28" rx="3" width="28" x="20" y="112"></rect>
+<!-- Center Matrix bits -->
+<rect fill="currentColor" height="12" rx="2" width="12" x="68" y="20"></rect>
+<rect fill="currentColor" height="24" rx="2" width="12" x="68" y="44"></rect>
+<rect fill="currentColor" height="12" rx="2" width="24" x="20" y="68"></rect>
+<rect fill="currentColor" height="12" rx="2" width="24" x="68" y="80"></rect>
+<rect fill="currentColor" height="16" rx="2" width="16" x="104" y="68"></rect>
+<rect fill="currentColor" height="28" rx="2" width="16" x="128" y="104"></rect>
+<rect fill="currentColor" height="12" rx="2" width="24" x="80" y="112"></rect>
+<rect fill="currentColor" height="16" rx="2" width="12" x="104" y="128"></rect>
+</svg>
+<div class="absolute inset-0 rounded-xl bg-primary/5 pointer-events-none"></div>
+</div>
+<div class="flex flex-col gap-1 max-w-xs">
+<p class="font-headline-sm text-headline-sm text-on-surface">Scan in WhatsApp</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Settings &gt; Linked Devices &gt; Link a Device
+          </p>
+</div>
+<button class="font-label-md text-label-md text-primary hover:underline" id="backToPhoneBtn" type="button">
+          Return to Phone Number Entry
+        </button>
+</div>
+</div>
+<!-- Value Proposition Banner Card -->
+<div class="relative z-10 w-full max-w-sm mt-space-md bg-surface-container rounded-xl p-space-md shadow-md flex items-start gap-space-sm">
+<div class="flex-shrink-0 w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary mt-0.5">
+<span class="material-symbols-outlined text-[18px]">memory</span>
+</div>
+<div class="flex flex-col">
+<h4 class="font-headline-sm text-headline-sm text-on-surface leading-tight mb-1">
+          Zero Cloud Storage
+        </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Directly syncs chat summaries without third-party cloud exports. Your raw transcripts remain strictly isolated on-device in sandboxed WebAssembly storage.
+        </p>
+</div>
+</div>
+<!-- Legal Footnote & Local Isolation Status -->
+<div class="relative z-10 w-full max-w-sm mt-space-lg flex flex-col items-center text-center gap-space-xs">
+<div class="flex items-center gap-1.5 text-on-surface-variant font-code-sm text-code-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span>Local Core v2.4.1 • Isolated WASM Sandbox</span>
+</div>
+<p class="font-body-sm text-body-sm text-outline max-w-xs">
+        By connecting, you agree to MissedIt AI’s 
+        <a class="text-on-surface-variant underline hover:text-primary transition-colors" href="#terms">Terms of Triage</a> 
+        and 
+        <a class="text-on-surface-variant underline hover:text-primary transition-colors" href="#privacy">Zero-Retention Privacy Charter</a>.
+      </p>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    const phoneStepView = document.getElementById('phoneStepView');
+    const otpStepView = document.getElementById('otpStepView');
+    const qrStepView = document.getElementById('qrStepView');
+    const toggleMethodBtn = document.getElementById('toggleMethodBtn');
+    const backToPhoneBtn = document.getElementById('backToPhoneBtn');
+    const sendOtpBtn = document.getElementById('sendOtpBtn');
+    const editNumberBtn = document.getElementById('editNumberBtn');
+    const displayPhoneTarget = document.getElementById('displayPhoneTarget');
+    const phoneNumberInput = document.getElementById('phoneNumberInput');
+    const countryCodeSelect = document.getElementById('countryCodeSelect');
+    const stepIndicator1 = document.getElementById('stepIndicator1');
+    const stepIndicator2 = document.getElementById('stepIndicator2');
+    const verifyConfirmBtn = document.getElementById('verifyConfirmBtn');
+    const countdownTimer = document.getElementById('countdownTimer');
+    const otpDigits = document.querySelectorAll('.otp-digit');
+
+    let isQrMode = false;
+    let timerSeconds = 38;
+    let intervalId = null;
+
+    // Countdown logic
+    function startTimer() {
+      clearInterval(intervalId);
+      timerSeconds = 42;
+      intervalId = setInterval(() => {
+        if (timerSeconds <= 0) {
+          clearInterval(intervalId);
+          countdownTimer.textContent = '0:00 (Resend)';
+          countdownTimer.classList.add('cursor-pointer', 'underline');
+          return;
+        }
+        timerSeconds--;
+        const padded = timerSeconds < 10 ? '0' + timerSeconds : timerSeconds;
+        countdownTimer.textContent = '0:' + padded;
+      }, 1000);
+    }
+
+    startTimer();
+
+    // Switch between Phone form and OTP form
+    sendOtpBtn.addEventListener('click', () => {
+      const fullNumber = countryCodeSelect.value + ' ' + (phoneNumberInput.value.trim() || '(555) 019-2831');
+      displayPhoneTarget.textContent = fullNumber;
+      
+      phoneStepView.classList.add('hidden');
+      otpStepView.classList.remove('hidden');
+      qrStepView.classList.add('hidden');
+
+      stepIndicator1.classList.remove('w-8', 'bg-primary');
+      stepIndicator1.classList.add('w-2', 'bg-surface-variant');
+      stepIndicator2.classList.remove('w-2', 'bg-surface-variant');
+      stepIndicator2.classList.add('w-8', 'bg-primary');
+      
+      startTimer();
+      // Auto-focus next empty input
+      if (otpDigits[4]) otpDigits[4].focus();
+    });
+
+    editNumberBtn.addEventListener('click', () => {
+      otpStepView.classList.add('hidden');
+      phoneStepView.classList.remove('hidden');
+      qrStepView.classList.add('hidden');
+
+      stepIndicator1.classList.add('w-8', 'bg-primary');
+      stepIndicator1.classList.remove('w-2', 'bg-surface-variant');
+      stepIndicator2.classList.add('w-2', 'bg-surface-variant');
+      stepIndicator2.classList.remove('w-8', 'bg-primary');
+    });
+
+    // Toggle QR mode
+    toggleMethodBtn.addEventListener('click', () => {
+      isQrMode = !isQrMode;
+      if (isQrMode) {
+        phoneStepView.classList.add('hidden');
+        otpStepView.classList.add('hidden');
+        qrStepView.classList.remove('hidden');
+        toggleMethodBtn.innerHTML = '<span class="material-symbols-outlined text-[14px]">smartphone</span><span>Switch to Phone Login</span>';
+      } else {
+        qrStepView.classList.add('hidden');
+        phoneStepView.classList.remove('hidden');
+        toggleMethodBtn.innerHTML = '<span class="material-symbols-outlined text-[14px]">qr_code_2</span><span>Switch to QR Login</span>';
+      }
+    });
+
+    backToPhoneBtn.addEventListener('click', () => {
+      isQrMode = false;
+      qrStepView.classList.add('hidden');
+      phoneStepView.classList.remove('hidden');
+      toggleMethodBtn.innerHTML = '<span class="material-symbols-outlined text-[14px]">qr_code_2</span><span>Switch to QR Login</span>';
+    });
+
+    // Auto-advance OTP Inputs
+    otpDigits.forEach((digitInput, index) => {
+      digitInput.addEventListener('input', (e) => {
+        if (e.target.value.length === 1 && index < otpDigits.length - 1) {
+          otpDigits[index + 1].focus();
+        }
+      });
+      digitInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Backspace' && !e.target.value && index > 0) {
+          otpDigits[index - 1].focus();
+        }
+      });
+    });
+
+    // Confirm button feedback
+    verifyConfirmBtn.addEventListener('click', () => {
+      const originalHtml = verifyConfirmBtn.innerHTML;
+      verifyConfirmBtn.innerHTML = '<span class="material-symbols-outlined text-[20px] animate-spin">sync</span><span>Decrypting Local Store...</span>';
+      verifyConfirmBtn.classList.add('opacity-90');
+      setTimeout(() => {
+        verifyConfirmBtn.innerHTML = '<span class="material-symbols-outlined text-[20px]">check_circle</span><span>Authenticated!</span>';
+        setTimeout(() => {
+          verifyConfirmBtn.innerHTML = originalHtml;
+          verifyConfirmBtn.classList.remove('opacity-90');
+        }, 2000);
+      }, 1200);
+    });
+  })();
+</script></main></body></html>
